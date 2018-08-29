@@ -1,0 +1,248 @@
+/* ::: RESET STYLES STARTS ::: */
+
+
+*, body, html {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'SF UI Text', sans-serif;
+}
+
+html,
+div,
+body,
+#root {
+	height: 100%;
+}
+
+body {
+	color: var(--black);
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	font-family: 'SF UI TEXT REGULAR';
+}
+
+.rootChild {
+	height: 100%;
+}
+
+a,
+button,
+input {
+	outline: none;
+	border: 0;
+	background: none;
+}
+button {
+	cursor: pointer;
+}
+button.disable.buttonRegister {
+    float: right;
+    width: 171px;
+    height: 36px;
+}
+button.able.buttonRegister {
+    float: right;
+}
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+/* ::: RESET STYLES ENDS ::: */
+
+/* ::: COMMONLY USED CLASSES STARTS ::: */
+
+.fLeft {
+	float: left;
+}
+
+.fRight {
+	float: right;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	visibility: hidden;
+	max-height: 0;
+	opacity: 0;
+	clear: both;
+}
+
+.clearall {
+	clear: both;
+}
+
+.text-capitalized {
+	text-transform: capitalize;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-underline {
+	text-decoration: underline;
+}
+
+.text-ellipsis {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text-prevent-break {
+	white-space: nowrap;
+}
+
+.margin-right-20 {
+	margin-right: 20px;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.padding-0 {
+	padding: 0;
+}
+
+.padding-lr-25 {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.padding-t-25 {
+	padding-top: 25px;
+}
+
+.display-block {
+	display: block;
+}
+
+.width-height-100per {
+	width: 100%;
+	height: 100%;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.flexContent {
+	display: flex;
+}
+
+/* ::: COMMONLY USED CLASSES ENDS ::: */
+
+/* ::: CLASSES FOR TESTING STARTS ::: */
+
+.background-test {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+/* ::: CLASSES FOR TESTING  ENDS ::: */
+
+.inputField {
+    height: 36px;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	margin: 0px 0px 10px 0px;
+	background: #fff;
+	padding-left: 15px;
+}
+
+/* ::: TYPOGRAPHY material icons STARTS HERE ::: */
+
+label {
+	font-size: 12px;
+}
+
+.password {
+	height: 36px;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	background-image: url('/images/eye.svg') no-repeat scroll 7px 7px;
+}
+
+.textbox {
+	height: 36px;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+	margin: 0px 0px 10px 0px;
+	background: #fff;
+	padding-left: 15px;
+}
+
+/* .container-err {
+    height:60px;
+} */
+.combobox {
+	height: 36px;
+	width: 100%;
+	border-radius: 2px;
+	background-color: #fff;
+}
+:global .react-datepicker-popper {
+	z-index: 9999999999 !important;
+}
+option {
+	padding: 15px;
+}
+
+.react-datepicker-wrapper {
+	width: 100% !important;
+}
+.react-datepicker__input-container {
+	width: 100%;
+}
+.able {
+	cursor: pointer;
+	padding: 10px;
+    border-radius: 2px;
+    width: 171px;
+	background-color: #97b860;
+	color: #fff;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+.able span{
+    font-weight: 500;
+    color: #fff;
+}
+.disable {
+	max-width: 510px;
+	background: #bdbdbd;
+	border: 1px dotted #979797;
+	padding: 10px;
+	color: #fff;
+	border-radius: 2px;
+	pointer-events: none;
+}
+.false{
+    cursor: pointer;
+}

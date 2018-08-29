@@ -1,0 +1,16 @@
+.popupContainer {
+	display: flex;
+}
+
+.flexContent {
+	height: 100%;
+	position: fixed;
+	width: 100%;
+}
+
+.notificationContainer {
+}
+
+switch {
+	width: 100%;
+}

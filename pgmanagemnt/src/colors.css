@@ -1,0 +1,27 @@
+/* ::: ADD THE GOLBAL VARIALBES HERE ::: */
+
+/*
+    Example :
+
+    --primaryColor: red;            // define
+
+    color: var(--primaryColor);     // usage
+
+*/
+
+:root {
+
+  /* Base theme colors */
+
+  --skBlue: #0098d6;
+  --white: #ffffff;
+  --skGrey1: #efefef;
+  --skGrey2: #b5bac3;
+  --skGrey3: #7a858d;
+  --skGrey4: #50505a;
+  --skTint1: #58bce4;
+  --skTint2: #acddf0;
+  --skShade1: #1074a2;
+  --skShade2: #004e71;
+  --black: #000000;
+}
